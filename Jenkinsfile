@@ -1,7 +1,7 @@
 pipeline{
         agent any
         environment{
-                DB_PASSWORD="PASSWORD"
+                DB_PASSWORD = "password"
         }
         stages{
             stage('Clone Chaperootodo_client'){
